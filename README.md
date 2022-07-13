@@ -1,4 +1,5 @@
 # Credit Card Transaction Validation: Overview
+### Available in Indonesian and English
 
 - Create a tool that has a function to evaluate and classify every credit card transaction submitted whether it is valid or fraudulent.
 - A tool made using Machine Learning with a 100% accuracy rate to avoid fraud and laundering that can harm Customers and Bank.
@@ -20,7 +21,7 @@ After collect Dataset from UCI Machine Learning Repository, I need to check and 
 
 ## Preprocessing Data
 After Dataset is clean, the dataset is not quite ready to fit into the model because it is still at a different scale in each column. So, I made the following changes and created the following variables:
-- Splitting dataset for test and training purpose.
+- Splitting dataset for test (30%) and training (70%) purpose.
 - Create the dummies dataset.
 - Scaling dummies dataset with values betwen minimum 0 to maximum 1.
 The dataset is ready to fit into the model.
